@@ -1,2 +1,24 @@
-<h1 align="center">Consultor de CEP 📍</h1>
-Um consultor de CEP em Vue utilizando a biblioteca <a href="https://github.com/BrasilAPI/cep-promise/">cep-promise do BrasilAPI</a>.
+# consultor-de-cep
+
+## Project setup
+```
+npm install
+```
+
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
+
+### Compiles and minifies for production
+```
+npm run build
+```
+
+### Lints and fixes files
+```
+npm run lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).

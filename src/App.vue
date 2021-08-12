@@ -1,5 +1,7 @@
 <template>
-  <Consultor />
+  <div id="app">
+    <Consultor />
+  </div>
 </template>
 
 <script>
@@ -43,7 +45,6 @@ body {
 
 #app {
   font-family: sf;
-  font-weight: 100;
 
   text-align: left;
 
