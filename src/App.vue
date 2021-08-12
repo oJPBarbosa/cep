@@ -16,11 +16,6 @@ export default {
 </script>
 
 <style>
-@font-face {
-  font-family: sf;
-  src: url(./assets/font/sf.ttf);
-}
-
 *,
 *::before,
 *::after {
@@ -41,13 +36,5 @@ body {
   height: 100%;
 
   background: #0e1224;
-}
-
-#app {
-  font-family: sf;
-
-  text-align: left;
-
-  color: #ffffff;
 }
 </style>

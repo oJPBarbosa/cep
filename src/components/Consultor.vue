@@ -62,7 +62,7 @@ export default {
         this.neighborhood_value = json["neighborhood"];
         this.street_value = json["street"];
       });
-      
+
       document.getElementById("limpar").style.display = "block";
     },
     limpar() {
@@ -76,11 +76,18 @@ export default {
     },
   },
 };
-
 </script>
 
 <style scoped>
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+@font-face {
+  font-family: SF;
+  src: url(../assets/fonts/sf.ttf);
+}
+
+@font-face {
+  font-family: Poppins;
+  src: url(../assets/fonts/poppins.ttf);
+}
 
 #consultor {
   height: 100%;
@@ -90,6 +97,10 @@ export default {
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  color: #ffffff;
+
+  font-family: SF;
 
   text-align: left;
 }
@@ -106,7 +117,7 @@ export default {
 
   font-size: 26px;
   font-weight: 600;
-  font-family: "Poppins", sans-serif;
+  font-family: Poppins;
 }
 
 img {
@@ -117,6 +128,10 @@ img {
 input {
   border: none;
   outline: none;
+
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
 }
 
 input[type="text"] {
@@ -130,13 +145,10 @@ input[type="text"] {
   border-radius: 1px;
 
   font-size: 18px;
-  font-style: sf;
 }
 
 ::placeholder {
   color: #ffffff;
-
-  font-family: sf;
   font-size: 18px;
 }
 
@@ -146,8 +158,6 @@ input[type="button"] {
 
   color: #ffffff;
   cursor: pointer;
-
-  font-family: sf;
   font-size: 18px;
 
   margin-top: 20px;
