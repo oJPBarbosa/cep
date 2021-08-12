@@ -1,24 +1,14 @@
-# consultor-de-cep
+<h1 align="center">Consultor de CEP 📍</h1>
+Um consultor de CEP desenvolvido em <a href="https://vuejs.org/">Vue.js<a> utilizando a biblioteca <a href="https://github.com/BrasilAPI/cep-promise/">cep-promise do BrasilAPI</a> para prática do framework.
 
-## Project setup
+## Comandos
+
+### Setup
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Compilação e inicialização do server
 ```
 npm run serve
 ```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
