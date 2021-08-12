@@ -35,6 +35,24 @@ body {
 
   height: 100%;
 
-  background: #0e1224;
+  background: var(--body-bg-color);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --body-bg-color: #0e1224;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --body-bg-color: #f7f7f7;
+  }
+}
+
+@media (prefers-color-scheme: no-prefence) {
+  :root {
+    --body-bg-color: #f7f7f7;
+  }
 }
 </style>

@@ -78,7 +78,7 @@ export default {
 };
 </script>
 
-<style scoped>
+<style>
 @font-face {
   font-family: SF;
   src: url(../assets/fonts/sf.ttf);
@@ -98,7 +98,7 @@ export default {
   flex-direction: column;
   align-items: center;
 
-  color: #ffffff;
+  color: var(--general-text-color);
 
   font-family: SF;
 
@@ -138,17 +138,17 @@ input[type="text"] {
   height: 50px;
   width: 100%;
 
-  color: #ffffff;
-  background: #0e1224;
+  color: var(--general-text-color);
+  background: var(--input-bg-color);
 
-  border-bottom: 3px solid #ffffff;
+  border-bottom: 3px solid var(--border-color);
   border-radius: 1px;
 
   font-size: 18px;
 }
 
 ::placeholder {
-  color: #ffffff;
+  color: var(--general-text-color);
   font-size: 18px;
 }
 
@@ -219,19 +219,19 @@ input[type="button"]:hover {
 }
 
 #footer a {
-  color: #55a2fa;
+  color: var(--footer-color);
 
   text-decoration: none;
 
-  border-bottom: 2px solid #fff8;
+  border-bottom: 2px solid var(--footer-border-color);
 
   transition: color 0.15s ease-out, border 0.15s ease-out;
 }
 
 #footer a:hover {
-  color: #3683da;
+  color: #2965af;
 
-  border-bottom-color: #3683da;
+  border-bottom-color: #2965af;
 
   transition: color 0.15s ease-in, border 0.15s ease-in;
 }
@@ -257,6 +257,36 @@ input[type="button"]:hover {
 @media screen and (max-width: 355px) {
   #consultor {
     width: 85vw;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --general-text-color: #ffffff;
+    --border-color: #ffffff;
+    --input-bg-color: #0e1224;
+    --footer-border-color: #fff8;
+    --footer-color: #55a2fa;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --general-text-color: #030303;
+    --border-color: #030303;
+    --input-bg-color: #f7f7f7;
+    --footer-border-color: #0008;
+    --footer-color: #2573cc;
+  }
+}
+
+@media (prefers-color-scheme: no-prefence) {
+  :root {
+    --general-text-color: #030303;
+    --border-color: #030303;
+    --input-bg-color: #f7f7f7;
+    --footer-border-color: #0008;
+    --footer-color: #2573cc;
   }
 }
 </style>
