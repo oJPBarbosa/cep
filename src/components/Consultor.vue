@@ -61,6 +61,10 @@ export default {
         this.city_value = json["city"];
         this.neighborhood_value = json["neighborhood"];
         this.street_value = json["street"];
+      }).catch(err => {
+        this.limpar();
+        alert("Erro na consulta do CEP!");
+        console.log(err);
       });
 
       document.getElementById("limpar").style.display = "block";
