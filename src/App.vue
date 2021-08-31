@@ -40,19 +40,19 @@ body {
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --body-bg-color: #0e1224;
+    --body-bg-color: #202029;
   }
 }
 
 @media (prefers-color-scheme: light) {
   :root {
-    --body-bg-color: #f7f7f7;
+    --body-bg-color: #ffffff;
   }
 }
 
 @media (prefers-color-scheme: no-prefence) {
   :root {
-    --body-bg-color: #f7f7f7;
+    --body-bg-color: #ffffff;
   }
 }
 </style>
