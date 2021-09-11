@@ -69,7 +69,7 @@ export default {
           this.street_value = json["street"];
         })
         .catch((err) => {
-          this.limpar();
+          this.clear();
           alert("Erro na consulta do CEP!");
           console.log(err);
         });
