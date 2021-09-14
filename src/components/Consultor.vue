@@ -71,7 +71,6 @@ export default {
         .catch((err) => {
           this.clear();
           alert("Erro na consulta do CEP!");
-          console.log(err);
         });
 
       document.getElementById("clear-button").style.display = "block";
