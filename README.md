@@ -24,7 +24,7 @@ A zip code consultant developed using Vue.js and BrasilAPI cep-promise library.
 
 ## ❓ How to use
 
-```bash
+```
 # Clone this repository
 $ git clone https://github.com/oJPBarbosa/consultor-de-cep.git
 
