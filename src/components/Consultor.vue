@@ -68,7 +68,7 @@ export default {
           this.neighborhood_value = json["neighborhood"];
           this.street_value = json["street"];
         })
-        .catch((err) => {
+        .catch(() => {
           this.clear();
           alert("Erro na consulta do CEP!");
         });
