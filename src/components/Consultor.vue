@@ -2,35 +2,38 @@
   <div id="consultant-container">
     <p id="header">Consulte qualquer CEP de uma forma simples e moderna.</p>
     <p id="input-label">Insira qualquer <b>CEP válido no Brasil</b>:</p>
-      <div id="cep-input-container">
-        <i class="fas fa-map-marker-alt"></i>
-        <input
-          type="text"
-          autocomplete="off"
-          placeholder="Seu melhor CEP"
-          maxlength="9"
-          v-model="cep"
-          @keydown.enter="consult"
-          @keydown.backspace="clear"
-        />
-      </div>
+    <div id="cep-input-container">
+      <i class="fas fa-map-marker-alt"></i>
       <input
-        type="button"
-        id="consult-button"
-        v-on:click="consult"
-        value="Consultar CEP"
+        type="text"
+        autocomplete="off"
+        placeholder="Seu melhor CEP"
+        maxlength="9"
+        v-model="cep"
+        @keydown.enter="consult"
+        @keydown.backspace="clear"
       />
-      <div id="data-container">
-        <p>Estado: {{ state }}</p>
-        <p>Cidade: {{ city }}</p>
-        <p>Bairro: {{ neighborhood }}</p>
-        <p>Logradouro: {{ street }}</p>
-      </div>
-      <input type="button" id="clear-button" v-on:click="clear" value="Limpar" />
+    </div>
+    <input
+      type="button"
+      id="consult-button"
+      v-on:click="consult"
+      value="Consultar CEP"
+    />
+    <div id="data-container">
+      <p>Estado: {{ state }}</p>
+      <p>Cidade: {{ city }}</p>
+      <p>Bairro: {{ neighborhood }}</p>
+      <p>Logradouro: {{ street }}</p>
+    </div>
+    <input type="button" id="clear-button" v-on:click="clear" value="Limpar" />
     <div id="footer">
       <p>
         Feito com 💙 por
-        <a href="https://github.com/oJPBarbosa/consultor-de-cep" target="_blank" rel="noreferrer"
+        <a
+          href="https://github.com/oJPBarbosa/consultor-de-cep"
+          target="_blank"
+          rel="noreferrer"
           >oJPBarbosa</a
         >.
       </p>
@@ -54,11 +57,9 @@ export default {
   },
   methods: {
     consult() {
-      if (this.cep === "")
-        return alert("Insira um CEP antes de consultá-lo.")
-
-      else if (this.cep.length < 8)
-        return alert("Insira um CEP válido!");
+      if (this.cep === "") return alert("Insira um CEP antes de consultá-lo.");
+      
+      else if (this.cep.length < 8) return alert("Insira um CEP válido!");
 
       cep(this.cep.replace("-", ""))
         .then((res) => {
@@ -177,7 +178,7 @@ b {
   left: 10px;
 }
 
-input[type="text"]  {
+input[type="text"] {
   height: 50px;
   width: 100%;
 
