@@ -13,9 +13,7 @@
 
   <img alt="GitHub" src="https://img.shields.io/github/license/oJPBarbosa/consultor-de-cep.svg">
   
-  <a href="https://www.codacy.com/app/Nouani/FastFeet-API?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Nouani/FastFeet-API&amp;utm_campaign=Badge_Grade">
-    <img alt="Codacy grade" src="https://img.shields.io/codacy/grade/1b577a07dda843aba09f4bc55d1af8fc.svg">
-  </a>
+  [![Codacy Badge](https://app.codacy.com/project/badge/Grade/70d423184df84f4a8bffeb9ac7f4bd48)](https://www.codacy.com/gh/oJPBarbosa/consultor-de-cep/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=oJPBarbosa/consultor-de-cep&amp;utm_campaign=Badge_Grade)
 </p>
 
 ## Description
