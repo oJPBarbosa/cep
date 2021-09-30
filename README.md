@@ -1,5 +1,5 @@
 <p align="center">
-  <h1 align="center">Consultor de CEP 📍</h1>
+  <h1 align="center">Consultor de CEP</h1>
 </p>
 
 <p align="center">
@@ -14,15 +14,10 @@
   <img alt="GitHub" src="https://img.shields.io/github/license/oJPBarbosa/consultor-de-cep.svg">
 </p>
 
-## 📃 Description
-A zip code consultant developed using Vue.js and BrasilAPI cep-promise library.
+## Description
+A zip code consultant developed using Vue.js and BrasilAPI 'cep-promise' library.
 
-#### 🚀 Technologies
-
-- [Node.js](https://nodejs.org/)
-- [Vue.js](https://vuejs.org/)
-
-## ❓ How to use
+## How to use
 
 ```
 # Clone this repository
@@ -39,9 +34,14 @@ $ npm run serve
 
 ```
 
-## 📘 References
+## References
 
+- [Node.js](https://nodejs.org/)
+- [Vue.js](https://vuejs.org/)
 - [BrasilAPI](https://github.com/BrasilAPI/)
 
-## 📝 License
+## Author
+A project made by [João Pedro F. Barbosa](https://github.com/oJPBarbosa).
+
+## License
 This project is under the MIT license. See the [LICENSE](https://github.com/oJPBarbosa/consultor-de-cep/blob/main/LICENSE) for more information.
