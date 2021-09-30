@@ -31,14 +31,13 @@ $ npm install
 
 # Run the app
 $ npm run serve
-
 ```
 
 ## References
 
--  [Node.js](https://nodejs.org/)
--  [Vue.js](https://vuejs.org/)
--  [BrasilAPI](https://github.com/BrasilAPI/)
+  - [Node.js](https://nodejs.org/)
+  - [Vue.js](https://vuejs.org/)
+  - [BrasilAPI](https://github.com/BrasilAPI/)
 
 ## Author
 A project made by [João Pedro F. Barbosa](https://github.com/oJPBarbosa).

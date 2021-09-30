@@ -9,7 +9,7 @@
           autocomplete="off"
           placeholder="Seu melhor CEP"
           maxlength="9"
-          v-model="cep_value"
+          v-model="cep"
           @keydown.enter="consult"
           @keydown.backspace="clear"
         />
@@ -21,10 +21,10 @@
         value="Consultar CEP"
       />
       <div id="data-container">
-        <p>Estado: {{ state_value }}</p>
-        <p>Cidade: {{ city_value }}</p>
-        <p>Bairro: {{ neighborhood_value }}</p>
-        <p>Logradouro: {{ street_value }}</p>
+        <p>Estado: {{ state }}</p>
+        <p>Cidade: {{ city }}</p>
+        <p>Bairro: {{ neighborhood }}</p>
+        <p>Logradouro: {{ street }}</p>
       </div>
       <input type="button" id="clear-button" v-on:click="clear" value="Limpar" />
     <div id="footer">
@@ -45,28 +45,28 @@ export default {
   name: "consultant-container",
   data() {
     return {
-      cep_value: "",
-      state_value: "",
-      city_value: "",
-      neighborhood_value: "",
-      street_value: "",
+      cep: "",
+      state: "",
+      city: "",
+      neighborhood: "",
+      street: "",
     };
   },
   methods: {
     consult() {
-      if (this.cep_value == '')
+      if (this.cep === "")
         return alert("Insira um CEP antes de consultá-lo.")
 
-      else if (this.cep_value.length < 8)
+      else if (this.cep.length < 8)
         return alert("Insira um CEP válido!");
 
-      cep(this.cep_value.replace("-", ""))
+      cep(this.cep.replace("-", ""))
         .then((res) => {
           const json = JSON.parse(JSON.stringify(res));
-          this.state_value = json["state"];
-          this.city_value = json["city"];
-          this.neighborhood_value = json["neighborhood"];
-          this.street_value = json["street"];
+          this.state = json["state"];
+          this.city = json["city"];
+          this.neighborhood = json["neighborhood"];
+          this.street = json["street"];
         })
         .catch(() => {
           this.clear();
@@ -77,20 +77,20 @@ export default {
       document.getElementById("data-container").style.display = "block";
     },
     clear() {
-      this.cep_value = "";
-      this.state_value = "";
-      this.city_value = "";
-      this.neighborhood_value = "";
-      this.street_value = "";
+      this.cep = "";
+      this.state = "";
+      this.city = "";
+      this.neighborhood = "";
+      this.street = "";
 
       document.getElementById("clear-button").style.display = "none";
       document.getElementById("data-container").style.display = "none";
     },
   },
   watch: {
-    cep_value: function (value) {
-      this.cep_value = value.replace(/\D/g, "");
-      this.cep_value = value.replace(/^(\d{5})(\d)/, "$1-$2");
+    cep(value) {
+      this.cep = value.replace(/\D/g, "");
+      this.cep = value.replace(/^(\d{5})(\d)/, "$1-$2");
     },
   },
 };
