@@ -11,9 +11,13 @@
     <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/oJPBarbosa/consultor-de-cep.svg">
   </a>
 
-  <img alt="GitHub" src="https://img.shields.io/github/license/oJPBarbosa/consultor-de-cep.svg">
+  <a href="https://github.com/oJPBarbosa/consultor-de-cep/blob/main/LICENSE">
+    <img alt="GitHub" src="https://img.shields.io/github/license/oJPBarbosa/consultor-de-cep.svg">
+  </a>
   
-  [![Codacy Badge](https://app.codacy.com/project/badge/Grade/70d423184df84f4a8bffeb9ac7f4bd48)](https://www.codacy.com/gh/oJPBarbosa/consultor-de-cep/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=oJPBarbosa/consultor-de-cep&amp;utm_campaign=Badge_Grade)
+  <a href="https://www.codacy.com/gh/oJPBarbosa/consultor-de-cep/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=oJPBarbosa/consultor-de-cep&amp;utm_campaign=Badge_Grade">
+    <img src="https://app.codacy.com/project/badge/Grade/70d423184df84f4a8bffeb9ac7f4bd48">
+  </a>
 </p>
 
 ## Description
@@ -42,7 +46,7 @@ $ npm run serve
   - [BrasilAPI](https://github.com/BrasilAPI/)
 
 ## Author
-A project made by [João Pedro F. Barbosa](https://github.com/oJPBarbosa).
+A project made by [João Pedro Barbosa](https://github.com/oJPBarbosa).
 
 ## License
 This project is under the MIT license. See the [LICENSE](https://github.com/oJPBarbosa/consultor-de-cep/blob/main/LICENSE) for more information.
