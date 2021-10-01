@@ -21,7 +21,7 @@
 </p>
 
 ## Description
-A zip code consultant developed using Vue.js and BrasilAPI 'cep-promise' library.
+A <a href="https://consultor-de-cep.vercel.app/" target="_blank" rel="noreferrer">zip code consultant</a> developed using Vue.js and BrasilAPI 'cep-promise' library.
 
 ## How to use
 
