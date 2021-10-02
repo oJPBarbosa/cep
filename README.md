@@ -49,4 +49,4 @@ $ npm run serve
 A project made by [João Pedro Barbosa](https://github.com/oJPBarbosa).
 
 ## License
-This project is under the MIT license. See the [LICENSE](https://github.com/oJPBarbosa/consultor-de-cep/blob/main/LICENSE) for more information.
+This project is under MIT license. Check [LICENSE](https://github.com/oJPBarbosa/consultor-de-cep/blob/main/LICENSE) for more information.
