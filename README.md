@@ -1,5 +1,5 @@
 <p align="center">
-  <h1 align="center">Consultor de CEP</h1>
+  <h1 align="center">📍 Consultor de CEP</h1>
 </p>
 
 <p align="center">
@@ -16,12 +16,15 @@
   </a>
   
   <a href="https://www.codacy.com/gh/oJPBarbosa/consultor-de-cep/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=oJPBarbosa/consultor-de-cep&amp;utm_campaign=Badge_Grade">
-    <img src="https://app.codacy.com/project/badge/Grade/70d423184df84f4a8bffeb9ac7f4bd48">
+    <img alt="Coday Badge" src="https://app.codacy.com/project/badge/Grade/70d423184df84f4a8bffeb9ac7f4bd48">
   </a>
 </p>
 
 ## Description
 A <a href="https://consultor-de-cep.vercel.app/" target="_blank" rel="noreferrer">zip code consultant</a> developed using Vue.js and BrasilAPI 'cep-promise' library.
+<p align="center">
+  <img alt="consultor-de-cep-demo" src="https://user-images.githubusercontent.com/79005271/137407293-f44d610d-747f-4320-b5ef-3e4d2d9aa024.png">
+</p>
 
 ## How to use
 
