@@ -23,7 +23,7 @@
 ## Description
 A <a href="https://consultor-de-cep.vercel.app/" target="_blank" rel="noreferrer">zip code consultant</a> developed using Vue.js and BrasilAPI 'cep-promise' library.
 <p align="center">
-  <img alt="consultor-de-cep-demo" src="https://user-images.githubusercontent.com/79005271/137407293-f44d610d-747f-4320-b5ef-3e4d2d9aa024.png">
+  <img alt="consultor-de-cep-demo" src="https://user-images.githubusercontent.com/79005271/137407394-b3d444d9-5fd2-4ee2-93f4-8365f58c43f4.png">
 </p>
 
 ## How to use
