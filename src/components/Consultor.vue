@@ -150,7 +150,7 @@ b {
   width: 100%;
 
   color: var(--general-text-color);
-  background: (general-text-color);
+  background: none;
 
   outline: none;
 
