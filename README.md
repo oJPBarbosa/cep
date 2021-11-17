@@ -1,8 +1,4 @@
 <p align="center">
-  <h1 align="center">📍 Consultor de CEP</h1>
-</p>
-
-<p align="center">
   <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/oJPBarbosa/consultor-de-cep.svg">
 
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/oJPBarbosa/consultor-de-cep.svg">
@@ -20,13 +16,13 @@
   </a>
 </p>
 
-## Description
-A <a href="https://consultor-de-cep.vercel.app/" target="_blank" rel="noreferrer">zip code consultant</a> developed using Vue.js and BrasilAPI 'cep-promise' library.
+## 🎯 Description
+Consultor de CEP. A <a href="https://consultor-de-cep.vercel.app/" target="_blank" rel="noreferrer">zip code consultant</a> developed using Vue.js and BrasilAPI 'cep-promise' library.
 <p align="center">
   <img alt="consultor-de-cep-demo" src="https://user-images.githubusercontent.com/79005271/137407394-b3d444d9-5fd2-4ee2-93f4-8365f58c43f4.png">
 </p>
 
-## How to use
+## 🙋 How to use
 
 ```bash
 # Clone this repository
@@ -42,14 +38,14 @@ $ npm install
 $ npm run serve
 ```
 
-## References
+## :rocket: Tecnologias
 
 - [Node.js](https://nodejs.org/)
 - [Vue.js](https://vuejs.org/)
 - [BrasilAPI](https://github.com/BrasilAPI/)
 
-## Author
-A project made by [João Pedro Barbosa](https://github.com/oJPBarbosa).
+## ✍️ Author
+A project made by [João Pedro Ferreira Barbosa](https://github.com/oJPBarbosa).
 
-## License
+## 🌎 License
 This project is under MIT license. Check [LICENSE](https://github.com/oJPBarbosa/consultor-de-cep/blob/main/LICENSE) for more information.
