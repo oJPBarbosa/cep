@@ -1,8 +1,8 @@
 <p align="center">
-  <p align="center">
   <img alt="Consultor de CEP" src="https://user-images.githubusercontent.com/79005271/142092896-143709af-2db8-48ef-809e-a09993196330.png">
 </p>
-  
+
+<p align="center">
   <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/oJPBarbosa/consultor-de-cep.svg">
 
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/oJPBarbosa/consultor-de-cep.svg">
