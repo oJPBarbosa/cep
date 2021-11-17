@@ -21,7 +21,7 @@
 </p>
 
 ## 🎯 Description
-Consultor de CEP. A <a href="https://consultor-de-cep.vercel.app/" target="_blank" rel="noreferrer">zip code consultant</a> developed using Vue.js and BrasilAPI 'cep-promise' library.
+A <a href="https://consultor-de-cep.vercel.app/" target="_blank" rel="noreferrer">zip code consultant</a> developed using Vue.js and BrasilAPI 'cep-promise' library.
 
 ## 🙋 How to use
 
@@ -39,7 +39,7 @@ $ npm install
 $ npm run serve
 ```
 
-## :rocket: Tecnologias
+## :rocket: Technologies
 
 - [Node.js](https://nodejs.org/)
 - [Vue.js](https://vuejs.org/)
