@@ -1,4 +1,8 @@
 <p align="center">
+  <p align="center">
+  <img alt="Consultor de CEP" src="https://user-images.githubusercontent.com/79005271/142092896-143709af-2db8-48ef-809e-a09993196330.png">
+</p>
+  
   <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/oJPBarbosa/consultor-de-cep.svg">
 
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/oJPBarbosa/consultor-de-cep.svg">
@@ -18,9 +22,6 @@
 
 ## 🎯 Description
 Consultor de CEP. A <a href="https://consultor-de-cep.vercel.app/" target="_blank" rel="noreferrer">zip code consultant</a> developed using Vue.js and BrasilAPI 'cep-promise' library.
-<p align="center">
-  <img alt="consultor-de-cep-demo" src="https://user-images.githubusercontent.com/79005271/137407394-b3d444d9-5fd2-4ee2-93f4-8365f58c43f4.png">
-</p>
 
 ## 🙋 How to use
 
