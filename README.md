@@ -16,7 +16,7 @@
   </a>
   
   <a href="https://www.codacy.com/gh/oJPBarbosa/consultor-de-cep/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=oJPBarbosa/consultor-de-cep&amp;utm_campaign=Badge_Grade">
-    <img alt="Coday Badge" src="https://app.codacy.com/project/badge/Grade/70d423184df84f4a8bffeb9ac7f4bd48">
+    <img alt="Codacy Badge" src="https://app.codacy.com/project/badge/Grade/70d423184df84f4a8bffeb9ac7f4bd48">
   </a>
 </p>
 
